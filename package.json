@@ -1,0 +1,16 @@
+{
+  "name": "int",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./process_fork/app.js",
+    "start:wf": "node ./worker-farm/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "worker-farm": "^1.7.0"
+  }
+}
